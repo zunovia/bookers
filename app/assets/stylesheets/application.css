@@ -1,18 +1,18 @@
-/*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
- * listed below.
- *
- * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
- * vendor/assets/stylesheets directory can be referenced here using a relative path.
- *
- * You're free to add application-wide styles to this file and they'll appear at the bottom of the
- * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
- * files in this directory. Styles in this file should be added after the last require_* statement.
- * It is generally better to create a new file per style scope.
- *
- *= require_tree .
- *= require_self
- */
+
+ /** This is a manifest file that'll be compiled into application.css, which will include all the files*/
+ /** listed below.*/
+ /***/
+ /** Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's*/
+ /** vendor/assets/stylesheets directory can be referenced here using a relative path.*/
+ /***/
+ /** You're free to add application-wide styles to this file and they'll appear at the bottom of the*/
+ /** compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS*/
+ /** files in this directory. Styles in this file should be added after the last require_* statement.*/
+ /** It is generally better to create a new file per style scope.*/
+ /***/
+ /**= require_tree .*/
+ /**= require_self*/
+
 
 * {
   margin: 0;
@@ -21,9 +21,11 @@
 }
 
 
+
+
 main {
-  width: 1000px;
-  margin-left: 3%;
+  /*width: 1000px;*/
+  margin-left: 50px;
   margin-top: 2%;
 }
 
@@ -31,17 +33,17 @@ table {
     width: 900px;
     height:250px;
     text-align: left;
-    /*word-wrap: break-word;*/
+    word-wrap: break-word;
 }
 
 thead {
  height:50px;
 }
 
-/*tbody tr {*/
-/*  white-space: nowrap;*/
-/*  text-overflow: ellipsis;*/
-/*}*/
+tbody  {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
 
 .a {
   width: 25%;
@@ -54,10 +56,10 @@ thead {
   width: 50%;
   text-align: center;
   white-space: nowrap;
-  text-overflow: ellipsis;
+  text-overflow: ellipsis;}
 
-.c {
-  width: 8%;
+.c{
+   width: 8%;
   text-align: center;
 }
 
@@ -73,14 +75,13 @@ thead {
 }
 
 
-.notification {
-.success {
-   background-color:
-   color: green;
- }
-.alert {
-   background-color: red;
-   color:white;
-   text-align: center;
- }
-}
+/*.notification {*/
+/*.success {*/
+/*   background-color:*/
+/*   color: green;*/
+/* }*/
+/*.alert {*/
+/*   background-color: red;*/
+/*   color:white;*/
+/*   text-align: center;*/
+/* }*/
